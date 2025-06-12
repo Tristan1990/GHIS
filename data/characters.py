@@ -68,10 +68,10 @@ Kind, curious, and full of quiet strength, Fatima is originally from Morocco, st
         ],
         # Fatima's custom starting values:
         "scores": {
-            "Energy ⚡️": 4,
-            "Comfort 🌿": 5,
-            "Social 💬": 6,
-            "Fulfillment 🌈": 7,
+            "Energy ⚡️": 10,
+            "Comfort 🌿": 10,
+            "Social 💬": 10,
+            "Fulfillment 🌈": 10,
         },
     },
 }

@@ -102,7 +102,7 @@ def make_square(img: Image.Image, size: int) -> Image.Image:
 components.html(
     """
     <div class='banner'>
-      <img src='https://www.firstunitarianottawa.ca/uploads/2/1/0/6/21068182/uu-pride-banner_orig.png' alt='UU Pride Banner'>
+      <img src='https://www.knir.it/wp-content/uploads/2024/02/UU-Honours.jpg' alt='UU Pride Banner'>
     </div>
     <style>
       .banner {
@@ -170,6 +170,9 @@ for col, (char_id, meta) in zip(cols[:-1], CHARACTERS.items()):
         st.markdown('</div>', unsafe_allow_html=True)
 
 # 7b) XP sidebar on the right
+
+
+# ----- XP SIDEBAR (right) ----------------------------------------------------
 with cols[-1]:
     st.markdown(
         """
@@ -182,6 +185,18 @@ with cols[-1]:
             <li><strong>Social 💬</strong>: Confidence & ease in interactions; feeling accepted and connected.</li>
             <li><strong>Fulfillment 🌈</strong>: Sense of satisfaction, enjoyment, and purpose.</li>
           </ul>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        """
+        <div style='border:1px solid #ccc;border-radius:6px;padding:1rem;
+                    margin-top:0.75rem;font-size:0.95rem;line-height:1.4;'>
+          These stories come straight from the individuals who shared them with us.
+          They reflect personal experiences rather than scientific samples, and we
+          make no claim that the characters portrayed here represent any broader
+          group. Our aim is simply to let each voice be heard on its own terms.
         </div>
         """,
         unsafe_allow_html=True,
